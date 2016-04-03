@@ -1,0 +1,39 @@
+body { background-color:black;}
+#console {color:white}
+.map td,
+.map div{
+	width:128px;
+	height:128px;
+	background-repeat:no-repeat;
+}
+
+#cp,
+#map {
+	display:inline-block;
+}
+
+#cp { width:200px; vertical-align: top;}
+	
+.map td .corner {background-position:-5px -5px }
+/*.map td .top 	{background-position:0 -5px }
+.map td .left {background-position:-5px 0 } */
+
+
+
+.grassland { background-image: url('img/2d/terrain/grassland.png'); }
+.water { background-image: url('img/2d/terrain/water.png'); }
+.desert { background-image: url('img/2d/terrain/desert.png'); }
+
+.grassland_l { background-image: url('img/2d/terrain/grassland_l.png'); }
+.water_l { background-image: url('img/2d/terrain/water_l.png'); }
+.desert_l { background-image: url('img/2d/terrain/desert_l.png'); }
+
+.grassland_t { background-image: url('img/2d/terrain/grassland_t.png'); }
+.water_t { background-image: url('img/2d/terrain/water_t.png'); }
+.desert_t { background-image: url('img/2d/terrain/desert_t.png'); }
+
+.grassland_tl { background-image: url('img/2d/terrain/grassland_tl.png'); }
+.water_tl { background-image: url('img/2d/terrain/water_tl.png'); }
+.desert_tl { background-image: url('img/2d/terrain/desert_tl.png'); }
+
+.cursor { outline: thin solid black; }
